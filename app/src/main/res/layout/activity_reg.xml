@@ -33,9 +33,9 @@
             android:id="@+id/reg_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-
             android:layout_centerVertical="true"
+
+            android:layout_marginStart="16dp"
             android:layout_toEndOf="@+id/back_reg_btn"
             android:text="Регистрация"
             android:textColor="#000000"
@@ -50,10 +50,10 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutBar"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -142,14 +142,27 @@
                     android:hint="Имя или никнейм" />
             </com.google.android.material.textfield.TextInputLayout>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Пол"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/repeat_password_reg_input" />
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/continue_reg_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:textAllCaps="false"
 
-                android:layout_marginTop="428dp"
-                android:text="Продолжить"
+                android:layout_marginTop="472dp"
+                android:text="Зарегистрироваться"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -171,6 +184,35 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/continue_reg_button" />
+
+            <RadioGroup
+                android:layout_width="110dp"
+                android:layout_height="137dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/repeat_password_reg_input">
+
+                <RadioButton
+                    android:buttonTint="#4B09F3"
+                    android:id="@+id/SexMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Мужской" />
+                <RadioButton
+                    android:buttonTint="#4B09F3"
+                    android:id="@+id/SexFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Женский"/>
+                <RadioButton
+                    android:buttonTint="#4B09F3"
+                    android:id="@+id/SexAnother"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Другое"/>
+
+            </RadioGroup>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
