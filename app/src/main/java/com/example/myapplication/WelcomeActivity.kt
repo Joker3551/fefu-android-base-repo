@@ -25,6 +25,10 @@ class WelcomeActivity() : AppCompatActivity(R.layout.activity_main) {
             val intent = Intent(this, RegActivity::class.java)
             startActivity(intent)
         }
+        binding.logButton.setOnClickListener {
+            val intent = Intent(this, LogActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 

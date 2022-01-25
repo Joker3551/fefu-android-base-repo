@@ -12,10 +12,21 @@
         <entry key="..\:/Users/Sergey/AndroidStudioProjects/fefu-android-base-repo1/app/src/main/res/layout/activity_log.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sergey/AndroidStudioProjects/fefu-android-base-repo1/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Sergey/AndroidStudioProjects/fefu-android-base-repo1/app/src/main/res/layout/activity_reg.xml" value="0.264" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_profile.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_remove_activity.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_share_activity.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_whistle.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_log.xml" value="0.22" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_reg.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_tracker.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/details_toolbar_items.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/tracker_navbar_items.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/user_profile_toolbar_items.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
