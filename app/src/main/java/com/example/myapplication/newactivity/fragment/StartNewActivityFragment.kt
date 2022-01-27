@@ -11,6 +11,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.selection.SelectionTracker
@@ -18,8 +19,26 @@ import androidx.recyclerview.selection.StableIdKeyProvider
 import androidx.recyclerview.selection.StorageStrategy
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.BuildConfig
+import com.example.myapplication.MainActivity
+import com.google.android.gms.common.ConnectionResult
+import com.google.android.gms.common.GoogleApiAvailability
+import com.google.android.gms.common.api.ResolvableApiException
+import com.google.android.gms.location.LocationServices
+import com.google.android.gms.location.LocationSettingsRequest
 import com.example.myapplication.R
+import com.example.myapplication.database.Activity
+import com.example.myapplication.databinding.FragmentStartNewActivityBinding
+import com.example.myapplication.newactivity.adapter.ActivityTypeAdapter
+import com.example.myapplication.newactivity.model.ActivityType
+import com.example.myapplication.newactivity.model.ActivityTypeModel
+import com.example.myapplication.newactivity.selectiontracker.CardDetailsLookup
+import com.example.myapplication.newactivity.selectiontracker.CardPredicate
+import com.example.myapplication.newactivity.service.ActivityLocationService
 import java.time.LocalDateTime
+
+
+
 
 class StartNewActivityFragment : Fragment(R.layout.fragment_start_new_activity) {
     private var _binding: FragmentStartNewActivityBinding? = null
@@ -130,7 +149,7 @@ class StartNewActivityFragment : Fragment(R.layout.fragment_start_new_activity) 
     }
 
     private fun initProgressActivity() {
-        activityId = App.INSTANCE.db.activityDao().insert(
+        activityId = MainActivity.INSTANCE.db.activityDao().insert(
             Activity(
                 0,
                 ActivityType.values()[selectionTracker.selection.first().toInt()],

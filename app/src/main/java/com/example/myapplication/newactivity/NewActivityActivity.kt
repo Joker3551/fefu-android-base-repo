@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment
 import com.example.myapplication.MainActivity
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityNewactivityBinding
+import com.example.myapplication.newactivity.fragment.ProgressNewActivityFragment
+import com.example.myapplication.newactivity.fragment.StartNewActivityFragment
+import com.example.myapplication.newactivity.model.ActivityTypeModel
 import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.BoundingBox

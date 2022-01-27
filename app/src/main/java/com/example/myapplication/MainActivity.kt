@@ -18,4 +18,8 @@ class MainActivity : Application() {
             "activity_database"
         ).allowMainThreadQueries().build()
     }
+    override fun onCreate() {
+        super.onCreate()
+        INSTANCE = this
+    }
 }
