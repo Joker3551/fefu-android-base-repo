@@ -16,10 +16,27 @@
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_remove_activity.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_share_activity.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-mdpi/ic_whistle.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-xxhdpi/background_new_activity_menu.xml" value="0.3828125" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/drawable-xxhdpi/ic_add_activity.xml" value="0.3828125" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_log.xml" value="0.22" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_newactivity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_reg.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/activity_tracker.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/date_label.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_change_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_my_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_my_activity_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_recycler_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_start_new_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_users_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/fragment_users_activity_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/my_activity_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/user_activity_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/layout/users_activity_card.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/details_toolbar_items.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/tracker_navbar_items.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/machi/AndroidStudioProjects/fefu-android-base-repo11/app/src/main/res/menu/user_profile_toolbar_items.xml" value="0.20520833333333333" />

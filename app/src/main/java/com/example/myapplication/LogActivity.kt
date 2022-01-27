@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import com.example.myapplication.databinding.ActivityLogBinding
 import com.example.myapplication.databinding.ActivityRegBinding
+import com.example.myapplication.tracker.TrackerActivity
 
 
 class LogActivity : AppCompatActivity(R.layout.activity_log) {
@@ -22,8 +23,14 @@ class LogActivity : AppCompatActivity(R.layout.activity_log) {
     }
 
     private fun setupActivity() {
+
         binding.backLogBtn.setOnClickListener {
             finish()
+        }
+
+        binding.continueLogButton.setOnClickListener {
+            val intent = Intent(this, TrackerActivity::class.java)
+            startActivity(intent)
         }
     }
 
